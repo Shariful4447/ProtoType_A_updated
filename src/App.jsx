@@ -145,12 +145,12 @@ const CAROUSEL_SLIDES = [
     subtitle: "Building safer roads.",
   },
   {
-    url: "https://images.unsplash.com/photo-1521791136064-7985ccfd7171?auto=format&fit=crop&q=80",
+    url: "https://i.ibb.co/fBDFjRD/labor-day-job-cartoon-24640-41351.avif",
     title: "Workforce",
     subtitle: "Empowering citizens.",
   },
   {
-    url: "https://images.unsplash.com/photo-1560518883-ce09059ee971?auto=format&fit=crop&q=80",
+    url: "https://i.ibb.co/M0WT8Xq/real-estate-management-concept-property-investment-online-housing-rental-service-realty-business-sma.webp",
     title: "Housing",
     subtitle: "Initiatives for every family.",
   },
@@ -275,9 +275,21 @@ async function mockNlpApi(query, scenarioId) {
       return {
         text: "Filing a tax return is a comprehensive process that begins with preparation. First, you must gather all necessary income documents, specifically your [W-2s](https://www.irs.gov/forms-pubs/about-form-w-2) from employers and [1099s](https://www.irs.gov/forms-pubs/about-form-1099) for other income sources [1]. Next, determine your filing status (e.g., Single, Married Filing Jointly) as this impacts your standard deduction [2]. You can then choose to file electronically for a faster refund or mail a paper return [3]. Finally, review your return for errors and ensure you sign and date it before submission to avoid processing delays.",
         citations: [
-          { id: 1, source: "IRS Checklist: What to Bring", url: "#" },
-          { id: 2, source: "Publication 501: Filing Status", url: "#" },
-          { id: 3, source: "Publication 17: Filing Options", url: "#" },
+          {
+            id: 1,
+            source: "IRS Checklist: What to Bring",
+            url: "https://www.irs.gov/filing/gather-your-documents",
+          },
+          {
+            id: 2,
+            source: "Publication 501: Filing Status",
+            url: "https://apps.irs.gov/app/understandingTaxes/teacher/hows_mod05.jsp#:~:text=filing%20status-,impacts%20the%20calculation%20of%20income%20tax%2C%20affects%20the%20amount%20of,household%2C%20and%20qualifying%20surviving%20spouse.",
+          },
+          {
+            id: 3,
+            source: "Publication 17: Filing Options",
+            url: "https://www.irs.gov/publications/p17",
+          },
         ],
       };
     }
@@ -352,9 +364,21 @@ async function mockNlpApi(query, scenarioId) {
       return {
         text: "Filing a tax return is a comprehensive process that begins with preparation. First, you must gather all necessary income documents, specifically your [W-2s](https://www.irs.gov/forms-pubs/about-form-w-2) from employers and [1099s](https://www.irs.gov/forms-pubs/about-form-1099) for other income sources [1]. Next, determine your filing status (e.g., Single, Married Filing Jointly) as this impacts your standard deduction [2]. You can then choose to file electronically for a faster refund or mail a paper return [3]. Finally, review your return for errors and ensure you sign and date it before submission to avoid processing delays.",
         citations: [
-          { id: 1, source: "IRS Checklist: What to Bring", url: "#" },
-          { id: 2, source: "Publication 501: Filing Status", url: "#" },
-          { id: 3, source: "Publication 17: Filing Options", url: "#" },
+          {
+            id: 1,
+            source: "IRS Checklist: What to Bring",
+            url: "https://www.irs.gov/filing/gather-your-documents",
+          },
+          {
+            id: 2,
+            source: "Publication 501: Filing Status",
+            url: "https://apps.irs.gov/app/understandingTaxes/teacher/hows_mod05.jsp#:~:text=filing%20status-,impacts%20the%20calculation%20of%20income%20tax%2C%20affects%20the%20amount%20of,household%2C%20and%20qualifying%20surviving%20spouse",
+          },
+          {
+            id: 3,
+            source: "Publication 17: Filing Options",
+            url: "https://www.irs.gov/publications/p17",
+          },
         ],
       };
     }
