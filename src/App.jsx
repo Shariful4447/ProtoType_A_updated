@@ -87,7 +87,7 @@ const THEME = {
   gradient: "from-blue-700 to-sky-600",
   chatHeader: "bg-blue-700 text-white",
   userBubble: "bg-blue-700 text-white",
-  botAvatar: "bg-blue-600 text-white",
+  botAvatar: "bg-blue-700 text-white",
   launcher: "bg-blue-700 hover:bg-blue-800",
 };
 
@@ -652,7 +652,7 @@ export default function App() {
                   <Bot size={22} />
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg leading-none mb-1 uppercase tracking-tighter">
+                  <h3 className="font-bold text-lg leading-none mb-1 tracking-tighter">
                     askMe
                   </h3>
                   <div className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest opacity-80">
