@@ -648,7 +648,7 @@ export default function App() {
               className={`h-20 ${THEME.primary} p-6 flex items-center justify-between text-white shrink-0 shadow-lg`}
             >
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 bg-white/20 rounded-xl flex items-center justify-center shadow-inner">
+                <div className="w-12 h-12 bg-white/10 border border-white/20 rounded-2xl flex items-center justify-center shadow-inner backdrop-blur-md">
                   <Bot size={22} />
                 </div>
                 <div>
