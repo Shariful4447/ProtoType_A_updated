@@ -655,7 +655,7 @@ export default function App() {
                   <h3 className="font-bold text-lg leading-none mb-1 tracking-tighter">
                     askMe
                   </h3>
-                  <div className="flex items-center gap-1.5 text-[9px] font-black uppercase tracking-widest opacity-80">
+                  <div className="flex items-center gap-1.5 text-[9px] font-black text-blue-100 uppercase tracking-widest">
                     <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse shadow-[0_0_5px_rgba(74,222,128,0.8)]"></span>{" "}
                     Live Support
                   </div>
